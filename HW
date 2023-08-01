@@ -1,0 +1,86 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+ <title>My resume</title>  
+ <style>  
+  body {  
+   margin: 0;  
+   padding: 0;  
+   font-family: Arial;  
+  }  
+  .container {  
+   display: flex;  
+   align-items: center;  
+   justify-content: center;  
+   height: 100vh;  
+   background-color: purple;  
+  }  
+  .profile {  
+   display: flex;  
+   flex-direction: column;  
+   align-items: center;  
+   margin-bottom: 50px;  
+  }  
+  .profile img {  
+   width: 30px;  
+   height: 20px;  
+  }  
+  .name {  
+   font-size: 30px;  
+   font-weight: bold;  
+   margin-bottom: 10px;  
+  }  
+  .title {  
+   font-size: 20px;  
+   font-weight: bold;  
+   margin-bottom: 10px;  
+  }  
+  .me {  
+   font-size: 16px;  
+   text-align: center;  
+   margin-bottom: 50px;  
+  }  
+  .experience {  
+   display: grid;  
+   grid-template-columns: repeat(2, 1fr);  
+   grid-gap: 30px;  
+   width: 80%;  
+  }  
+  .experience .item {  
+   background-color: white;  
+   padding: 20px;  
+   border-radius: 5px;  
+   box-shadow: 0 2px 4px rgba(0,0,0,0.1);  
+  }  
+  .experience .item h3 {  
+   font-size: 18px;  
+   font-weight: bold;  
+   margin-bottom: 10px;  
+  }  
+  .experience .item p {  
+   font-size: 16px;  
+   margin-bottom: 10px;  
+  }  
+ </style>  
+</head>  
+<body>  
+ <div class="container">  
+  <div class="profile">  
+   <img src="https://images3.memedroid.com/images/UPLOADED197/64050ce835751.webp" alt="Profile photo">  
+   <div class="name">Asyl Sansyzbaeva</div>  
+   <div class="title">Probably a future frontender</div>  
+   <div class="me">I'm a 15 y.o. teenager from Astana. I like reading, music and creativity. I chose to learn frontend and I got interested in programming, because it's one of the demanded professions, which, in my opinion, gives a freedom in actions.</div>  
+  </div>  
+  <div class="experience">  
+   <div class="item">  
+    <h3>thoughts</h3>  
+    <p>As a beginner, before the camp I was worried. I didn't know, if I could handle it. What if I won't be able to keep up with others? But it's worth a shot, I guess. It's a big experience after all</p>  
+   </div>  
+   <div class="item">  
+    <h3>experience</h3>  
+    <p>I don't really have an experience of programming at all. Motivation to develop, that's what brought me here. I'm willing to try something new, that's why I'm here for the experience</p>  
+   </div>   
+  
+  
+</body>  
+</html>
