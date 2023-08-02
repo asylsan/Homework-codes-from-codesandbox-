@@ -1,0 +1,15 @@
+import "./styles.css";
+const input1 = document.getElementById("input1");
+const input2 = document.getElementById("input2");
+const button = document.getElementById("button");
+const answer = document.getElementById("answer");
+
+document.querySelector('title').innerText = "Calculator";
+
+let userName = prompt("What is your name, comrade?");
+alert("Welcome, " + userName + ", you can start using the calculator!");
+button.addEventListener("click", () => {
+  const key1 = parseInt(input1.value);
+  const key2 = parseInt(input2.value);
+  answer.innerText = key1 + key2;
+});
